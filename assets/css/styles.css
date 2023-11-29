@@ -231,6 +231,11 @@ article {
   margin-top: 4rem;
 }
 
+.animation {
+  display: inline-block;
+  animation: shake 0.5s ease-in-out infinite;
+}
+
 @keyframes shake {
   0% {
     transform: translateX(0);
@@ -247,9 +252,4 @@ article {
   100% {
     transform: translateX(0);
   }
-}
-
-.animation {
-  display: inline-block;
-  animation: shake 0.5s ease-in-out infinite;
 }
