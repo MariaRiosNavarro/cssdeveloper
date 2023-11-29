@@ -9,16 +9,16 @@ Header images and Logo are done with Image Creator of Bing
 # Server
 
 <div>
-<img  src="./assets/img/home.png" alt=""  width="500px"/>
-<img  src="./assets/img/about.png" alt=""  width="500px"/>
-<img  src="./assets/img/work.png" alt=""  width="500px"/>
-<img  src="./assets/img/galerie.png" alt=""  width="500px"/>
+<img  src="./assets/img/home.png" alt=""  />
+<img  src="./assets/img/about.png" alt=""  />
+<img  src="./assets/img/work.png" alt=""  />
+<img  src="./assets/img/galerie.png" alt=""  />
 </div>
 
 # Live Server
 
 <div>
-<img  src="./assets/img/homeLS.png" alt=""  width="500px"/>
+<img  src="./assets/img/homeLS.png" alt=""  />
 </div>
 
 🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡
