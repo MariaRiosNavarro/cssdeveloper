@@ -14,4 +14,4 @@ app.get("/*.html", (req, res) => {
   res.sendFile(path.join(__dirname, "pages", requestedPage));
 });
 
-app.listen(PORT, () => console.log("Servidor iniciado en el puerto " + PORT));
+app.listen(PORT, () => console.log("port " + PORT));
