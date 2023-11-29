@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
     <title>css_developer</title>
   </head>
   <body>
     <header class="header">
       <div class="logo-wrapper">
-        <img src="../img/logo.png" alt="logo" class="logo" />
+        <img src="../assets/img/logo.png" alt="logo" class="logo" />
         <h1>CSS_developer</h1>
       </div>
       <nav class="nav">
@@ -22,89 +22,105 @@
     <main>
       <section class="wrapper">
         <figure class="img-wrapper-one">
-          <img class="initial-img" src="../img/dev1.jpg" alt="" />
+          <img class="initial-img" src="../assets/img/dev1.jpg" alt="" />
         </figure>
         <h2>Biographie</h2>
-        <article>
-          <h3>Die Frühen Jahre: 1979-1989</h3>
-          <p>
-            1979 - Geboren in Codeburg, einem kleinen digitalen Dorf, erblickte
-            THE-CSS-Developer das Licht der Binärwelt. Schon als Kleinkind
-            schien er eine besondere Verbindung zu den Nullen und Einsen zu
-            haben, als würde sein Schicksal in den Tiefen des Codes bereits
-            geschmiedet.
-          </p>
-          <p>
-            1985 - Die ersten Gehversuche im Codeuniversum. Mit einem
-            Spielzeug-Computer entdeckte er die faszinierende Welt der
-            BASIC-Befehle und konnte nicht genug bekommen. Die Neugier auf die
-            Möglichkeiten der digitalen Welt wuchs stetig.
-          </p>
-          <p>
-            1989 - Berührt die erste Taste eines echten Computers. Es war der
-            Beginn einer lebenslangen Affäre mit der Tastatur. Die klappernden
-            Geräusche wurden zu einer Melodie, die sein Herz im Takt des Codes
-            schlagen ließ.
-          </p>
-        </article>
-        <h3>Die Heldenreise im Backend-Dschungel: 1990-2010</h3>
-        <p>
-          1995 - Das erste selbstgeschriebene Programm. Eine unscheinbare "Hello
-          World"-Anwendung markierte den Beginn einer heldenhaften Reise durch
-          den Backend-Dschungel. Datenbanken, Server und Algorithmen wurden zu
-          seinen treuen Gefährten.
-        </p>
-        <p>
-          2000 - Der Abschluss der Heldenausbildung. Mit einem Informatikdiplom
-          in der Hand betrat er offiziell die Welt der Profi-Codierer.
-          Backend-Probleme wurden zu Herausforderungen, die er mit Bravour
-          meisterte.
-        </p>
-        <p>
-          2005 - Die Gründung der eigenen Entwicklungsagentur. THE-CSS-Developer
-          wurde ein gefeierter Held im Backend-Königreich. Doch in den Tiefen
-          seines Codes regte sich eine Sehnsucht nach etwas anderem – etwas mit
-          mehr Stil.
-        </p>
-        <p></p>
-        <article>
-          <h3>Die Entdeckung der Leidenschaft für CSS: 2011-2020</h3>
-          <p>
-            2011 - Ein Zufallsklick auf ein CSS-Tutorial. Etwas Magisches
-            geschah, als er sich in die Welt von Margin, Padding und den
-            Farbpaletten von CSS vertiefte. Ein Hauch von Stil wehte durch seine
-            Codezeilen.
-          </p>
-          <p>
-            2015 - Der erste Style-Trick. Der Wechsel von einem reinen
-            Backend-Helden zu einem, der die Welt der Frontend-Stile erkundete,
-            begann mit einem simplen Trick. Sein erster div-Container wurde
-            zentriert, und das Herz des Style-Königs erwachte.
-          </p>
-          <p>
-            2018 - Der epische Feldzug gegen verschobene Divs. Mit einer Armee
-            von Medienabfragen und Flexbox-Truppen brachte er Ordnung in das
-            Chaos der verschobenen Elemente. Die Welt sollte erfahren, dass der
-            wahre König nicht nur im Backend, sondern auch im Frontend regiert.
-          </p>
-        </article>
-        <article>
-          <h3>Die Krönung zum Style-König: 2021-heute</h3>
-          <p>
-            2021 - Die Erleuchtung. In einem Moment der Klarheit erkannte
-            THE-CSS-Developer, dass sein wahres Glück in der Welt des Stils lag.
-            Der Style-König war geboren, und sein Weg führte fortan zu perfekt
-            ausgerichteten Boxen, geschmeidigen Übergängen und makellosem
-            Design.
-          </p>
-          <p>
-            Heute - Ein legendärer Name. THE-CSS-Developer lebt als der
-            Style-König, dessen Geschichten sich von den Nullen und Einsen bis
-            zu den Pixeln und Em-Einheiten erstrecken. Sein Vermächtnis bleibt
-            in jedem harmonischen Layout und jeder eleganten Animation erhalten,
-            und sein Herz schlägt im Takt eines perfekt gestylten Stylesheets.
-          </p>
-        </article>
+
+        <div class="bio-wrapper">
+          <article>
+            <h3>Die Frühen Jahre: 1979-1989</h3>
+            <span>1979</span>
+            <p>
+              Geboren in Codeburg, einem kleinen digitalen Dorf, erblickte
+              THE-CSS-Developer das Licht der Binärwelt. Schon als Kleinkind
+              schien er eine besondere Verbindung zu den Nullen und Einsen zu
+              haben, als würde sein Schicksal in den Tiefen des Codes bereits
+              geschmiedet.
+            </p>
+            <span>1985</span>
+            <p>
+              Die ersten Gehversuche im Codeuniversum. Mit einem
+              Spielzeug-Computer entdeckte er die faszinierende Welt der
+              BASIC-Befehle und konnte nicht genug bekommen. Die Neugier auf die
+              Möglichkeiten der digitalen Welt wuchs stetig.
+            </p>
+            <span>1989</span>
+            <p>
+              Berührt die erste Taste eines echten Computers. Es war der Beginn
+              einer lebenslangen Affäre mit der Tastatur. Die klappernden
+              Geräusche wurden zu einer Melodie, die sein Herz im Takt des Codes
+              schlagen ließ.
+            </p>
+          </article>
+          <article>
+            <h3>Die Heldenreise im Backend-Dschungel: 1990-2010</h3>
+            <span>1995</span>
+            <p>
+              Das erste selbstgeschriebene Programm. Eine unscheinbare "Hello
+              World"-Anwendung markierte den Beginn einer heldenhaften Reise
+              durch den Backend-Dschungel. Datenbanken, Server und Algorithmen
+              wurden zu seinen treuen Gefährten.
+            </p>
+            <span>2000</span>
+            <p>
+              Der Abschluss der Heldenausbildung. Mit einem Informatikdiplom in
+              der Hand betrat er offiziell die Welt der Profi-Codierer.
+              Backend-Probleme wurden zu Herausforderungen, die er mit Bravour
+              meisterte.
+            </p>
+            <span>2005</span>
+            <p>
+              Die Gründung der eigenen Entwicklungsagentur. THE-CSS-Developer
+              wurde ein gefeierter Held im Backend-Königreich. Doch in den
+              Tiefen seines Codes regte sich eine Sehnsucht nach etwas anderem –
+              etwas mit mehr Stil.
+            </p>
+          </article>
+          <article>
+            <h3>Die Entdeckung der Leidenschaft für CSS: 2011-2020</h3>
+            <span>2011</span>
+            <p>
+              Ein Zufallsklick auf ein CSS-Tutorial. Etwas Magisches geschah,
+              als er sich in die Welt von Margin, Padding und den Farbpaletten
+              von CSS vertiefte. Ein Hauch von Stil wehte durch seine
+              Codezeilen.
+            </p>
+            <span>2015</span>
+            <p>
+              Der erste Style-Trick. Der Wechsel von einem reinen Backend-Helden
+              zu einem, der die Welt der Frontend-Stile erkundete, begann mit
+              einem simplen Trick. Sein erster div-Container wurde zentriert,
+              und das Herz des Style-Königs erwachte.
+            </p>
+            <span>2018</span>
+            <p>
+              Der epische Feldzug gegen verschobene Divs. Mit einer Armee von
+              Medienabfragen und Flexbox-Truppen brachte er Ordnung in das Chaos
+              der verschobenen Elemente. Die Welt sollte erfahren, dass der
+              wahre König nicht nur im Backend, sondern auch im Frontend
+              regiert.
+            </p>
+          </article>
+          <article>
+            <h3>Die Krönung zum Style-König: 2021-heute</h3>
+            <span>2021</span>
+            <p>
+              Die Erleuchtung. In einem Moment der Klarheit erkannte
+              THE-CSS-Developer, dass sein wahres Glück in der Welt des Stils
+              lag. Der Style-König war geboren, und sein Weg führte fortan zu
+              perfekt ausgerichteten Boxen, geschmeidigen Übergängen und
+              makellosem Design.
+            </p>
+            <span>Heute</span>
+            <p>
+              Ein legendärer Name. THE-CSS-Developer lebt als der Style-König,
+              dessen Geschichten sich von den Nullen und Einsen bis zu den
+              Pixeln und Em-Einheiten erstrecken. Sein Vermächtnis bleibt in
+              jedem harmonischen Layout und jeder eleganten Animation erhalten,
+              und sein Herz schlägt im Takt eines perfekt gestylten Stylesheets.
+            </p>
+          </article>
+        </div>
       </section>
     </main>
   </body>

@@ -70,6 +70,21 @@ article {
   overflow: hidden;
   display: flex;
 }
+
+.img-wrapper-two {
+  height: 10rem;
+  overflow: hidden;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+}
+
+.initial-img-two {
+  height: 10rem;
+  max-height: 20rem;
+  margin: 0 auto;
+}
+
 .initial-img {
   width: 100%;
   object-fit: cover;
@@ -91,19 +106,71 @@ article {
 .wrapper .sub-wrapper {
   display: flex;
   justify-content: center;
+  gap: 2rem;
+  padding: 2rem 4rem;
 }
 
 .sub-wrapper article {
-  padding: 0 4rem;
+  padding: 0 2rem;
 }
 
 .sub-wrapper article h3 {
-  padding: 4rem;
-  font-size: 3rem;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .sub-wrapper article p {
-  padding: 4rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: rgb(185, 238, 237);
+}
+
+.spruch {
+  display: block;
+  text-align: center;
+  padding: 4rem 0 0 0;
+  font-size: 3rem;
+  font-style: italic;
+  color: brown;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* about */
+
+.bio-wrapper {
+  padding: 2rem 4rem;
+}
+
+.bio-wrapper article {
+  display: flex;
+  flex-direction: column;
+}
+
+.bio-wrapper article h3 {
+  text-align: center;
+}
+
+.bio-wrapper article p {
+  padding: 1rem;
+}
+
+.bio-wrapper article span {
+  background-color: white;
+  color: red;
+  padding: 1rem 2rem;
+  border-radius: 65% 35% 45% 55% / 59% 57% 43% 41%;
+  max-width: 10rem;
+  align-self: center;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+/* work*/
+
+.work-wrapper {
+  padding: 2rem 8rem;
 }
