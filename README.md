@@ -1,6 +1,6 @@
 # CSS_Developer (Express Static Server Port 9898)
 
-A joke and ironic page about the abversion of certain programmers and backend developers to css or giving applications some love.🤡
+A joke and ironic page about the abversion of certain programmers and backend developers to css or giving applications some love and "chichi". 🤡
 
 Practice using express and static files
 
