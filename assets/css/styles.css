@@ -9,19 +9,101 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  background-color: rgb(150, 115, 115) (245, 8, 8);
+  color: violet;
+  background-color: black;
 }
 
 img {
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: violet;
+}
+
+h2 {
+  font-size: 4rem;
+  text-align: center;
+  padding: 4rem;
+  color: yellow;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+p {
+  font-size: 2rem;
+  color: rgb(185, 238, 237);
+}
+
+article {
+  padding-bottom: 2rem;
+}
+
+.header,
+.nav,
+.logo-wrapper {
+  display: flex;
+  background-color: black;
+  color: violet;
+  gap: 2rem;
+  align-items: center;
+}
+
+.header {
+  justify-content: space-between;
+  padding: 4rem 4rem 2rem 4rem;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-size: 3rem;
+}
+
+.img-wrapper-one {
+  margin: 0 auto;
+  height: 50vh;
+  overflow: hidden;
+  display: flex;
+}
 .initial-img {
-  width: 50%;
+  width: 100%;
+  object-fit: cover;
   margin: 0 auto;
 }
 
 .logo {
   width: 5rem;
   height: 5rem;
+  background-color: black;
+}
+
+.wrapper {
+  padding: 4rem 2rem;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.wrapper .sub-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.sub-wrapper article {
+  padding: 0 4rem;
+}
+
+.sub-wrapper article h3 {
+  padding: 4rem;
+  font-size: 3rem;
+}
+
+.sub-wrapper article p {
+  padding: 4rem;
+  font-size: 2rem;
+  color: rgb(185, 238, 237);
 }
