@@ -16,6 +16,11 @@ img {
   max-width: 100%;
 }
 
+.initial-img {
+  width: 50%;
+  margin: 0 auto;
+}
+
 .logo {
   width: 5rem;
   height: 5rem;
