@@ -3,9 +3,11 @@ import express from "express";
 const PORT = 9898;
 const app = express();
 
-// Configuración de rutas estáticas
-app.use("/assets", express.static("assets"));
-app.use("/pages", express.static("pages"));
-app.use("/img", express.static("img"));
+app.use((req, res, next) => {
+  console.log(req.method, req.url);
+  next();
+});
 
-app.listen(PORT, () => console.log("port " + PORT));
+app.use(express.static("assets"));
+
+app.listen(PORT, () => console.log("Server http://localhost:" + PORT));
